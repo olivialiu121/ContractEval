@@ -19,7 +19,7 @@ We leveraged the test data of [CUAD](https://github.com/TheAtticusProject/cuad) 
 ContractEval evaluates 4 proprietary LLMs and 15 open-source models on contract review task. We design system prompt asking LLMs to act as a legal assistant to extract and return only the sentence(s) from the Context that directly address or relate to the questions. If no part of the Context is relevant to the Question, LLMs should respond with: "No related clause."
 
 ## Example code for proprietary models
-First, change the value of `api_key`, `model_name`, `model_id` in Line 30, 31, 34 in `proprietary_model.py` prespectively.
+First, change the value of `api_key`, `model_name`, `model_id` in Line 30, 31, 83 in `proprietary_model.py` prespectively.
 
 Then, the template code for proprietary models is run by:
 
